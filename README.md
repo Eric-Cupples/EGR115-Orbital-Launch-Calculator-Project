@@ -14,6 +14,12 @@ By integrating user inputs, a comprehensive database, analysis capabilities, and
 
 ![image](https://github.com/Eric-Cupples/EGR115-Orbital-Launch-Calculator-Project/assets/69020250/f16c4101-9b11-44b8-bb89-000ed34eb869)
 
+## Demo/Report Video
+[Link to Video](https://myerauedu-my.sharepoint.com/:v:/g/personal/cupplese_my_erau_edu/EUJRujxqMrFFo6FHIE0T1jcBOLpcbgB8zpjsQho4Zs6FLg?e=FG0Av2)
+
+
+## Sample Runs
+
 Sample 1 - Database Mode
 
     Welcome to the Launch Vehicle Calculator.
@@ -219,3 +225,6 @@ Sample 5 - Saved Mode
     Would you like to save your Rocket Data? (Enter "yes" or "no"): no
     
     Would you like to run the program again? (Enter "yes" or "no"): no
+    
+## Website Portfolio
+[Link to Portfolio Website](https://eric-cupples.github.io/home.html)

@@ -1,6 +1,19 @@
-Sample Runs
+This project aims to develop an application that uses both user inputs and a database to calculate launch parameters for rockets. The application will provide outputs such as deltaV, best launch trajectory, maximum height, optimized orbital periods, orbital heights, and other relevant data. The program will support the following features:
+
+Searching and Sorting: The application will implement a database to store rockets, including real and fictional ones. Users will be able to search and sort this database for convenient recall of rocket information.
+
+Analysis: The database will store various variables, numbers, and graphs related to each rocket. Users can analyze this data using MATLAB and within the application itself. The program will utilize arrays and data files to store and process the information effectively.
+
+User Inputs: The application will allow users to enter their own values and variables, enabling customization and calculation of launch parameters based on user-defined inputs. Users can also save their rocket designs to the database for future reference.
+
+Data Export: The program will provide the functionality to export the calculated data in various formats, such as numbers, graphs, and pictures. This feature allows users to use the data outside of the application or reuse it within the program for different purposes.
+
+By integrating user inputs, a comprehensive database, analysis capabilities, and data export options, this application simplifies the process of extrapolating launch parameters for rockets, providing users with valuable insights and facilitating efficient rocket design and optimization.
+
+![image](https://github.com/Eric-Cupples/EGR115-Orbital-Launch-Calculator-Project/assets/69020250/f16c4101-9b11-44b8-bb89-000ed34eb869)
 
 Sample 1 - Database Mode
+
     Welcome to the Launch Vehicle Calculator.
     Please select the configuration of launch vehicle. (Demo, Database, Saved, Random, or Custom): Database
     This database includes the following rockets: 
@@ -13,8 +26,8 @@ Sample 1 - Database Mode
 	    ULA Atlas V (506)
 	    SpaceX Falcon 9
 	    SpaceX Falcon 9 Heavy
-Please enter the name of the rocket you would like to use (Enter the name exactly as it is written above): SpaceX 
-Falcon 9
+    Please enter the name of the rocket you would like to use (Enter the name exactly as it is written above): SpaceX 
+    Falcon 9
     
     
     Rocket Calculations Complete!
@@ -47,7 +60,6 @@ Falcon 9
     Would you like to run the program again? (Enter "yes" or "no"): no
 
 
-?
 Sample 2 - Random Mode
     Welcome to the Launch Vehicle Calculator.
     Please select the configuration of launch vehicle. (Demo, Database, Saved, Random, or Custom): random
@@ -86,7 +98,6 @@ Sample 2 - Random Mode
     Would you like to run the program again? (Enter "yes" or "no"): no
 
 
-?
 Sample 3 - Custom Mode
     Welcome to the Launch Vehicle Calculator.
     Please select the configuration of launch vehicle. (Demo, Database, Saved, Random, or Custom): Custom
@@ -106,7 +117,7 @@ Sample 3 - Custom Mode
     Enter the Gross Mass of this stage: 200000
     
     Hint:80% of a rockets gross mass should be dedicated to fuel. With a 200000.00 kg rocket, we recommend 
-160000.00 kg of propellant.
+    160000.00 kg of propellant.
     Enter the propellant of this stage: 150000
     
     ISP Hint: 250 to 500 (Enter a number 60 to 542)
@@ -121,7 +132,7 @@ Sample 3 - Custom Mode
     Enter the Gross Mass of this stage: 33000
     
     Hint:80% of a rockets gross mass should be dedicated to fuel. With a 33000.00 kg rocket, we recommend 
-26400.00 kg of propellant.
+    26400.00 kg of propellant.
     Enter the propellant of this stage: 28000
     
     ISP Hint: 250 to 500 (Enter a number 60 to 542)
@@ -150,7 +161,7 @@ Sample 3 - Custom Mode
     
     Would you like to run the program again? (Enter "yes" or "no"): no
 
-?
+
 Sample 4 - Demo Mode
     Welcome to the Launch Vehicle Calculator.
     Please select the configuration of launch vehicle. (Demo, Database, Saved, Random, or Custom): Demo
@@ -173,10 +184,9 @@ Sample 4 - Demo Mode
     
     Would you like to save your Rocket Data? (Enter "yes" or "no"): no
 
-Would you like to run the program again? (Enter "yes" or "no"): no
+    Would you like to run the program again? (Enter "yes" or "no"): no
 
 
-?
 Sample 5 - Saved Mode
     Welcome to the Launch Vehicle Calculator.
     Please select the configuration of launch vehicle. (Demo, Database, Saved, Random, or Custom): Saved
@@ -186,7 +196,7 @@ Sample 5 - Saved Mode
 	    Saved 3 Stage
 	    Random
     Please enter the name of the rocket you would like to use (Enter the name exactly as it is written above): Saved 
-3 Stage
+    3 Stage
     
     
     Rocket Calculations Complete!

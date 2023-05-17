@@ -1,3 +1,5 @@
+# Orbital Launch Calculator EGR115 MATLAB/Simulink Project
+
 This project aims to develop an application that uses both user inputs and a database to calculate launch parameters for rockets. The application will provide outputs such as deltaV, best launch trajectory, maximum height, optimized orbital periods, orbital heights, and other relevant data. The program will support the following features:
 
 Searching and Sorting: The application will implement a database to store rockets, including real and fictional ones. Users will be able to search and sort this database for convenient recall of rocket information.
